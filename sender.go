@@ -90,6 +90,8 @@ func (e *EventSender) senderProcess() error {
 
 			}
 
+			break
+
 		}
 
 		events = nil
