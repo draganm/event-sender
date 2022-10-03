@@ -92,6 +92,8 @@ func (e *EventSender) senderProcess() error {
 
 		}
 
+		events = nil
+
 	}
 
 	return e.ctx.Err()
